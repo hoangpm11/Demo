@@ -1,0 +1,18 @@
+﻿1. Cung cấp hệ thống class lưới (mặc định 12 col) sẵn
+
+.container (fix width) | .container-fluid (100%)
+      .row
+           .col-xs-12 | .col-sm-12 | .col-md-12 | .col-lg-12
+                 nội dung
+      .row
+           .col-xs-12 | .col-sm-12 | .col-md-12 | .col-lg-12
+                 nội dung
+.container
+
+2. Hệ thống class - cấu trúc html làm các UI element
+
+nút:  .btn .btn-default
+
+
+3. Tùy biến riêng theo thiết kế nếu không thể làm được nữa
+

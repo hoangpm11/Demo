@@ -1,0 +1,104 @@
+.pricing-table {
+  height: 800px;
+  .pricing1 {
+    padding: 0;
+    border-right: 1px solid #dfe5e8;
+    .pricing-title {
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      background-color: #f0f3f2;
+      padding: 15px 80px;
+      text-align: center;
+    }
+    .price {
+      background-color: #b0de79;
+      text-align: center;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 65px;
+      color: #ffffff;
+      span {
+        margin-bottom: 5px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+      }
+    }
+    .pricing-content {
+      background-color: #f0f3f2;
+      ul {
+        padding-left: 0;
+        text-align: center;
+      }
+      li:nth-child(1) {
+        padding: 35px;
+      }
+      li:nth-child(6) {
+        text-decoration: line-through;
+      }
+      li:nth-child(4) {
+        text-decoration: line-through;
+      }
+      li:nth-child(5) {
+        text-decoration: line-through;
+      }
+      li:nth-child(6) {
+        text-decoration: line-through;
+        border-bottom: none;
+      }
+      li {
+        list-style-type: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        color: #5f727f;
+        border-bottom: 1px solid #dfe5e8;
+        padding: 15px;
+      }
+      
+    }
+     .pricing-button {
+      i {
+        margin-right: 8px;
+      }
+      .btn1 {
+        margin: auto;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 90px;
+        text-transform: uppercase;
+        background-color: #393d50;
+        padding: 7px 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  
+   
+  }
+  .pricing2 {
+    @extend .pricing1;
+    .price {
+      background-color: #7ee0bf;
+    }
+  }
+  .pricing3 {
+    @extend .pricing1;
+    .price {
+      background-color: #83bce9;
+    }
+    .pricing-content {
+      li:nth-child(1) {
+        padding: 11px;
+      }
+    }
+  }
+  .pricing4 {
+    @extend .pricing1;
+    .price {
+      background-color: #a289e8
+    }
+  }
+}

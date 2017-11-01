@@ -1,0 +1,53 @@
+/*
+Error: File to import not found or unreadable: sass/variables.
+       Load path: C:/Users/licck/Desktop/JS/Lession07/sass
+        on line 2 of C:\Users\licck\Desktop\JS\Lession07\sass\style.scss
+
+1: /* Custom Style *\/
+2: @import 'sass/variables'; 
+3: 
+4: @import 'sass/mixins'; 
+5: 
+6: @import 'sass/global';
+7: 
+
+Backtrace:
+C:\Users\licck\Desktop\JS\Lession07\sass\style.scss:2
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/sof/L/koala/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/sof/L/koala/Koala/bin/sass:18:in `load'
+D:/sof/L/koala/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: sass/variables.\A        Load path: C:/Users/licck/Desktop/JS/Lession07/sass\A         on line 2 of C:\Users\licck\Desktop\JS\Lession07\sass\style.scss\A \A 1: /* Custom Style */\A 2: @import 'sass/variables'; \A 3: \A 4: @import 'sass/mixins'; \A 5: \A 6: @import 'sass/global';\A 7: "; }

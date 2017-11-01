@@ -1,0 +1,64 @@
+#header {
+  position: relative;
+  background-image: url(images/banner.png);
+  width: 100%;
+  height: 750px;
+}
+
+.nav {
+  font-family: 'Raleway', sans-serif;
+  li {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+}
+
+.navbar {
+  background-color: inherit;
+  border-bottom-color: #505268;
+}
+
+.navbar-brand {
+  font-family: myriad pro;
+  font-size: 33px;
+  text-transform: uppercase;
+  span {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.navbar-nav {
+  li {
+    color: #d7d8db;
+  }
+}
+
+.banner-text {
+  position: relative;
+  margin-top: 159px;
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 67px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 42px;
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 82px;
+    letter-spacing: 0;
+  }
+  a {
+    text-transform: uppercase;
+  }
+  .btn {
+    border-radius: inherit;
+    color: #fef6f6;
+    background-color: #e84545;
+  }
+}

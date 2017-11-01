@@ -1,0 +1,258 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>generator webapp</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+
+  <nav id="navbar-example2" class="navbar navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand ml-4" href="#">Kibiro for Biz</a>
+    <ul class="nav nav-pills mr-4">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu mt-2">
+          <a class="dropdown-item" href="#one">one</a>
+          <a class="dropdown-item" href="#two">two</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#three">three</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="sidebar d-flex flex-row">
+    <ul class=" main-menu  d-inline-block text-center mb-0 list-unstyled">
+      <li class="nav-item">
+        <a class="nav-link active pt-4" href="#">
+				 <img src="images/kibiro.png" alt="">	 
+				 <p>コンテン</p> 
+				</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="#">
+					<img src="images/kibiro.png" alt="">
+					 <p>Kibiro管理</p> 
+					</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+        	<img src="images/kibiro.png" alt="">
+          <p>利用状況</p>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="sub-menu list-unstyled d-inline-block mb-0 pt-3 ">
+      <li class="nav-item">
+        <a class="nav-link  text-dark " href="#">表示コンテンツ設定</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">スライド設定</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="#">メニュー設定</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">よくある質問設定</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">アンケート設定</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <div class="main-content">
+    <div class="main-title fixed-top pl-2 ">フォーカスアウト</div>
+
+    <nav class="main-nav">
+      <ul class=" list-unstyled  ">
+        <li class="nav-item active ">
+          <a class="nav-link  " href="#">メニュー 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">メニュー 2</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="#">メニュー 3</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-success btn-sm ml-2 ">フォーカスアウト</button>
+    </nav>
+
+    <div class="form-main">
+
+      <form id="form" data-parsley-validate="">
+        <div class="form-button d-flex justify-content-end mt-2 mb-2">
+          <button type="submit" class="btn btn-success mr-2 " value="validate">フォーカスア</button>
+          <button type="button" id="empty" class="btn btn-secondary "><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input name="menutitle" data-parsley-length="[4, 20]"  type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="color-pic-box ">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="color-pic-box ">
+                <label>  Button color </label>
+                <div class="input-group pick-color colorpicker-component">
+                  <input type="text" name="color" value="#4A4A4A" class="form-control" />
+                  <span class="input-group-addon"><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="color-pic-box ">
+                <label>Button color</label>
+                <div class="input-group pick-color colorpicker-component">
+                  <input type="text" name="color" value="#F6A623" class="form-control" />
+                  <span class="input-group-addon"><i></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="color-pic-box ">
+                <label> Button color</label>
+                <div class="input-group pick-color colorpicker-component">
+                  <input type="text" name="color" value="#FFFFFF" class="form-control" />
+                  <span class="input-group-addon"><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="color-pic-box ">
+                <label> Button color</label>
+                <div class="input-group pick-color colorpicker-component">
+                  <input type="text" name="color" value="#FFFFFF" class="form-control" />
+                  <span class="input-group-addon"><i></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>フォーカスアウト</p>
+        <div class="form-group">
+          <label class="form-control-label" for="formGroupExampleInput">Example label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        </div>
+        <div class="form-group">
+          <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+          <input type="checkbox" class="form-check-input">Check me out          
+        </label>
+        </div>
+
+        <div class="form-group form-hide">
+          <label class="form-control-label" for="formGroupExampleInput">Example label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        </div>
+
+        <div class="form-group form-hide">
+          <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label">
+          <input type="checkbox" class="form-check-input"> Check me out               
+         </label>
+        </div>
+
+        <div class="form-check mb-4">
+          <label class="form-check-label">
+          <input type="checkbox" class="form-check-input"> Check me out                   
+        </label>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
+  <script src="/bower_components/parsleyjs/dist/parsley.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+}
+html{height:100%}
+body{
+	margin:0;
+	font-family:arial;   
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbdbdb+0,ffffff+100 */
+	background: #dbdbdb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dbdbdb 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #dbdbdb 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #dbdbdb 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	height:100%;
+	background-repeat: no-repeat;
+}
+
+
+/* topbar*/
+.topbar{
+	height:8px;
+	background-color:#ffe701;
+	border-bottom:solid 1px white ;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6e03+0,fefe00+50,ff6e03+100,ff6e03+100 */
+	background: #ff6e03; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ff6e03 0%, #fefe00 50%, #ff6e03 100%, #ff6e03 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ff6e03 0%,#fefe00 50%,#ff6e03 100%,#ff6e03 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ff6e03 0%,#fefe00 50%,#ff6e03 100%,#ff6e03 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6e03', endColorstr='#ff6e03',GradientType=1 ); /* IE6-9 */
+}
+#wrapper{
+	width:960px;
+	margin:auto;
+	font-size:12px;
+}
+/* Language */
+.language{float:right;}
+.language a{
+	padding:10px;
+	display:inline-block;
+	color:#1a1a1a;
+	text-decoration:none;
+}
+.language a:hover,.language a.current{text-decoration:underline}
+.language a:first-child{padding-left:0}
+.language a:last-child{padding-right:0}
+/* Logo */
+.logo{
+	clear:both;
+	text-align:center;
+	padding-bottom:34px;
+}
+/* Menu */
+.menu{
+	font-family: Myriad Pro;	
+	font-size:16px;
+}
+.menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.menu li{
+	display:inline-block;
+	text-align:center;	
+	margin:0 20px;
+}
+.menu a{
+	color:#1a1a1a;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:9px 14px;
+	display:block;
+}
+.menu li.current a,.menu a:hover{
+	background:#fd9204;
+	color:white;
+	padding:9px 14px;
+	display:block;
+	line-height:16px;	
+	vertical-align:middle;
+	border-radius:5px;
+}
+header{
+	margin-bottom:30px;
+}
+/* News */
+section,header,#wrapper{
+	overflow: hidden;
+}
+article{
+	width:640px;
+	float:left;
+}
+aside{
+	width:305px;
+	float:right;
+}
+p{
+	text-align:justify;
+	line-height:18px;
+}
+article img{
+	width:100%;
+	height:auto;
+	border:solid 5px #ccc;
+}
+.news a{text-decoration:none;}
+h2{
+	border-bottom:solid 1px #fd9204;
+	padding-bottom: 8px;
+}
+h2 a{
+	color:#a7a7a7;
+	text-transform:uppercase;
+	font-family:Myriad Pro;
+	font-weight:100;
+	font-size:20px;	
+}
+
+.readmore a{
+	color:#fd9204;
+	text-decoration:underline;
+	float:right;
+}
+.readmore a:before{
+	content:'';
+	display:inline-block;
+	width:8px;
+	height:8px;
+	background-color:#d13400;
+	border-radius:50%;
+	margin-right:4px;
+}
+
+
+/* aside */
+aside h3 a{
+	color:#fd9204;
+	text-transform:uppercase;
+	font-size:12px;
+	
+}
+aside h3 span{
+	color:#333;
+	font-weight:100;
+	font-size:10px;
+}
+.news_item{
+	border-bottom:dashed 1px #ccc;
+}
+/* ads */
+
+.ads{
+
+	width: 100%;
+	height:auto;
+}
+
+.ads h2{
+	width: 100%;
+}
+.ads h2 a{
+	text-decoration: none;
+}
+
+.ads h3 span{
+	display:block;
+}
+.product_item{
+ 	width:33.33%;
+ 	float:left;
+ 	padding-right: 14px;
+	padding-left: 14px;
+	
+}
+.product{
+	margin-right: -14px;
+	margin-left: -14px;
+}
+
+
+.ads img{
+	width: 100%;
+	height:auto;
+}
+
+.ads h3 a{
+	color:#fd9204;
+	text-transform:uppercase;
+	font-size:12px;
+	
+}
+.ads h3 span{
+	color:#333;
+	font-weight:100;
+	font-size:10px;
+}
+.ads ul {
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+	line-height: 20px;
+	
+}
+.ads ul li{
+	overflow: hidden;
+}
+.product_item .value{
+	display: inline-block;
+	width: 170px;
+	float: right;
+	text-align: left;
+
+}
+
+
+
+
+

@@ -1,0 +1,121 @@
+@import "bower_components/bootstrap/scss/_functions.scss";
+@import 'variables';
+//@import 'dropdown';
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #222;
+}
+
+.dropdown {
+  a:hover {
+    color: #fff;
+  }
+}
+
+.sidebar {
+  word-wrap: break-word;
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 800;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+  .main-menu {
+    background-color: #545B69;
+    width: 90px;
+    font-size: 12px;
+    a:hover {
+      background-color: #3f6ac2;
+      color: #fff;
+    }
+    .active {
+      color: #fff;
+      background-color: #3f6ac2;
+    }
+  }
+  .sub-menu {
+    width: 200px;
+    background-color: #f4f7fe;
+    font-size: 16px;
+    font-weight: 600;
+    a:hover {
+      background-color: #d7e3ff;
+    }
+    .active {
+      background-color: #d7e3ff;
+    }
+  }
+}
+
+.main-content {
+  .main-title {
+    background-color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    z-index: 1000;
+    top: 56px;
+    left: 290px;
+    border-bottom: 2px solid #eaeaea;
+  }
+  .main-nav {
+    word-wrap: break-word;
+    font-weight: 500;
+    width: 168px;
+    bottom: 0;
+    background-color: #eee;
+    position: fixed;
+    z-index: 1200;
+    top: 106px;
+    left: 290px;
+    font-size: 17px;
+    a {
+      color: #7faed7;
+    }
+    li:hover,
+    li.active {
+      color: #222;
+      background-color: #fff;
+      border-left: 2px solid #6ea6e7;
+    }
+  }
+  .form-main {
+    position: absolute;
+    left: 520px;
+    right: 85px;
+    top: 106px;
+    .form-button {
+      margin-right: -15px;
+    }
+    .form-check {
+      margin-left: -15px;
+    }
+  }
+}
+
+//message validate
+.error {
+  color: red;
+}
+
+#color-error {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}

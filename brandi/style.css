@@ -1,0 +1,181 @@
+/* Custom Style */
+/* menu hover */
+/*Global*/
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/*
+ Icons
+*/
+/*
+ Featured
+*/
+.herotext {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.herotext * {
+  color: white;
+  font-weight: 300;
+}
+
+.herotext h2 {
+  font-size: 62px;
+}
+
+.herotext h3 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.herotext p {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.herotext p:before, .herotext p:after {
+  content: '';
+  display: inline-block;
+  border-bottom: solid 1px #0eeb9e;
+  width: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.herotext strong {
+  font-weight: 700;
+}
+
+.herotext .highlight {
+  color: #0eeb9e;
+}
+
+.herotext .social a {
+  opacity: 0.6;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.herotext .social a:hover {
+  opacity: 1;
+}
+
+/*
+ Buttons
+*/
+.mynav {
+  background-color: rgba(16, 22, 54, 0.2);
+  border-color: rgba(16, 22, 54, 0.2);
+  height: 70px;
+}
+
+.mynav .navbar-nav.menuright {
+  margin-right: 0;
+}
+
+.mynav .navbar-nav.menuright li > a {
+  color: white;
+  padding-top: 35px;
+  position: relative;
+}
+
+.mynav .navbar-nav.menuright li > a:hover {
+  color: #32b0ee;
+}
+
+.mynav .navbar-nav.menuright li > a:hover:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #32b0ee;
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+}
+
+.mynav .navbar-nav.menuright .active > a {
+  background-color: transparent;
+}
+
+.mynav .navbar-nav.menuright .active > a:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #32b0ee;
+  top: 0;
+  left: 0;
+  display: block;
+  position: absolute;
+}
+
+/* About */
+/* Banner */
+.slider {
+  position: relative;
+}
+
+.slider .carousel-indicators {
+  position: absolute;
+  right: 48px;
+  top: 300px;
+  width: 10px;
+  left: auto;
+  bottom: auto;
+}
+
+.slider .carousel-indicators li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.works .gallery, .works .gallery_item {
+  padding: 0;
+}
+
+.works .nav-tabs > li, .works .nav-pills > li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  /* ie7 fix */
+  zoom: 1;
+  /* hasLayout ie7 trigger */
+  border: none;
+}
+
+.works .nav-tabs, .works .nav-pills {
+  text-align: center;
+  border: none;
+}
+
+.works .nav-tabs > li.active > a {
+  border: none;
+  color: white;
+  background-color: #0eb493;
+  border-radius: 6px;
+  border-bottom: none;
+}
+
+.works .nav {
+  margin-bottom: 20px;
+}
+
+.image-fluid img {
+  width: 100%;
+  height: auto;
+}

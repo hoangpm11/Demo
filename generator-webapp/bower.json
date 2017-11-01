@@ -1,0 +1,22 @@
+{
+  "name": "generator-webapp",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.6",
+    "modernizr": "~2.8.1",
+    "font-awesome": "^4.7.0",
+    "bootstrap-colorpicker": "^2.5.1",
+    "jquery-validation": "^1.17.0",
+    "jquery": "^3.2.1",
+    "parsleyjs": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "font-awesome": "^4.7.0",
+    "bootstrap-colorpicker": "^2.5.1",
+    "jquery-validation": "^1.17.0",
+    "jquery": "^3.2.1",
+    "parsleyjs": "^2.8.0"
+  }
+}

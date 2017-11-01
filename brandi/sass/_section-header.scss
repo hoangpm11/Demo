@@ -1,0 +1,26 @@
+.mynav{
+    background-color: rgba($color_nav,0.2);
+    border-color:  rgba($color_nav,0.2);
+    height: 70px;
+    
+    .navbar-nav.menuright{
+        margin-right: 0;        
+        li>a{
+            color: white;
+            padding-top: 35px;
+            position: relative;
+            &:hover{
+                color: $color_blue_light;
+                &:before{
+                    @include menu-active();
+                }
+            }
+        }
+        .active>a{
+            background-color: transparent;
+            &:before{
+                @include menu-active();
+            }
+        }
+    }
+}

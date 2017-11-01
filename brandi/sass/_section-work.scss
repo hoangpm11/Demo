@@ -1,0 +1,36 @@
+.works{
+    .gallery,.gallery_item{
+        padding: 0;
+    }
+
+    .nav-tabs > li, .nav-pills > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+        zoom:1; /* hasLayout ie7 trigger */
+        border: none;
+    }
+
+    .nav-tabs, .nav-pills {
+        text-align:center;
+        border: none;
+    }
+    
+    .nav-tabs > li.active > a{
+        border: none;
+        color: white;
+        background-color: #0eb493;
+        border-radius: 6px;
+        border-bottom: none;
+    }
+    .nav{
+        margin-bottom: 20px;
+    }
+}
+
+.image-fluid{
+    img{
+        width: 100%;
+        height: auto;
+    }
+}

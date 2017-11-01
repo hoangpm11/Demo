@@ -1,0 +1,16 @@
+.slider{
+    position: relative;
+    .carousel-indicators{
+        position: absolute;
+        right: 48px;
+        top: 300px;
+        width: 10px;
+        left: auto;
+        bottom: auto;
+        li{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

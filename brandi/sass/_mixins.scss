@@ -1,0 +1,11 @@
+/* menu hover */
+@mixin menu-active(){
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: $color_blue_light;
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+}

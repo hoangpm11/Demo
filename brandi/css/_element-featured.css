@@ -1,0 +1,16 @@
+.featured_item {
+  padding-bottom: 50px;
+}
+
+.featured_item h2 {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .featured_item {
+    padding-bottom: 0;
+  }
+  .featured_item p {
+    min-height: 120px;
+  }
+}

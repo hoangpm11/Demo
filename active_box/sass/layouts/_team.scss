@@ -1,0 +1,37 @@
+#team {
+  margin-bottom: 100px;
+  .img-responsive {
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: #e84545;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: inline-block;
+  li {
+    float: left;
+    margin-right: 30px;
+  }
+  a {
+    color: #c6cacc;
+  }
+}
